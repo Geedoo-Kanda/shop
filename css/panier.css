@@ -1,0 +1,242 @@
+body{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+.contenu .division{
+    display: grid;
+    grid-template-columns: 10% 30% 20% 15% 15% 10%;
+}
+.contenu{
+    text-align: center;
+    margin-top: -150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    width: inherit;
+    margin-bottom: 50px;
+    background-color: white;
+    padding-bottom: 50px;
+}
+.contenu img {
+    background-size: cover;
+    height: auto;
+    width: 50%;
+}
+.contenu p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 219, 235, 0.151);
+    border-left: 2px solid rgb(0, 185, 209);
+    font-weight: normal;
+    height: auto;
+}
+.contenu .pied{
+    border: none;
+    background-color: white;
+}
+.contenu .total{
+    border-right: 2px solid rgb(0, 185, 209);
+    background-color: rgba(0, 219, 235, 0.273);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+#suka{
+    border-right: 2px solid rgb(0, 185, 209);
+}
+.contenu .tete{
+    background-color: rgba(255, 0, 0, 0.56);
+    font-weight: bold;
+    font-size: 17px;
+    border-left: 2px solid rgba(0, 0, 0, 0);
+    height: 50px;
+}
+.contenu .fa{
+    font-size: 20px;
+}
+
+footer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 15px black;
+}
+footer .navbar-nav{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: inline-flex;
+    list-style: none;
+}
+footer .navbar-header{
+    margin-left: 20px;
+    margin-right: 50px;
+}
+footer .fa-cart-plus{
+    font-size: 20px;
+}
+footer a{
+    text-decoration: none;
+    color : rgb(0, 46, 46);
+    transition: 0.25s;
+}
+footer a:hover{
+    text-decoration: none;
+    color : rgb(4, 211, 194);
+    transition: 0.25s;
+}
+.active{
+    color : rgb(4, 211, 194);
+}
+footer span{
+    background-color:  rgb(4, 211, 194);
+    padding: 7px;
+    border-radius: 50%;
+    font-size: 17px;
+    border-bottom-right-radius: 0px;
+    font-weight : bold;
+    position: absolute;
+    margin-top: -32px;
+    margin-left: -15px;
+    box-shadow: 0px 0px 10px rgb(102, 102, 102);
+}
+footer span:hover{
+    color: black;
+}
+footer nav{
+    font-size: 35px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+footer .logo{
+    display: inline-flex;
+    
+}
+footer img{
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+footer h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+footer .fa:hover{
+    color : rgb(4, 211, 194);
+}
+footer .shop{
+    display: inline-flex;
+    color: rgb(0, 238, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: normal;
+}
+footer .search input{
+    border-radius: 5px;
+    border: 1px solid rgb(160, 160, 160);
+}
+footer .search button{
+    background-color: rgb(0, 238, 255);
+    border: 2px solid rgb(0, 238, 255);
+    border-radius: 5px;
+}
+.navbar-toggler{
+    float: right;
+    margin-right: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(88, 88, 88);
+    border-color: rgba(0, 0, 0, 0);
+    margin-top: 25px;
+}
+.fa-list{
+    font-size: 30px;
+}
+@media (min-width: 768px){
+    .navbar-toggler{
+       display: none;
+    }
+}
+.fond img{
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    left: 0;
+}
+.ombre{	
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+	background-color: rgba(0, 0, 0, 0.45);
+	width: 102.7%;
+    height: 80vh;
+    top: -3vh;
+    color: white;
+    margin-left: -15px;
+}
+.ombre h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+.ombre span{
+    color: rgb(0, 255, 234);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: normal;
+}
+.ombre p{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-top: -20px;
+}
+.sec{
+    transition: 0.25s;
+}
+.sec:focus{
+    box-shadow: 0px 0px 15px rgb(0, 255, 234);
+}
+.valider{
+    width: 150px;
+    background-color: rgba(0, 219, 235, 0.151);
+    border: 2px solid rgb(0, 185, 209);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 250px;
+}
+.valider:hover{
+    background-color: rgb(0, 185, 209);
+}
+
+@media (max-width: 991px){
+    footer a{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+        margin-left: 0px;
+    }
+     
+}
+@media (min-width: 768px){
+    .navbar-toggler{
+       display: none;
+    }
+}
