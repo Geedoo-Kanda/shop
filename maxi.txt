@@ -1,1 +1,0 @@
-http://localhost/Optimus%20shop/panier.php?status=success&reference=paiement%20des%20produits%20dans%20optimus%20shop&Method=CC
